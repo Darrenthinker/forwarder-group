@@ -1,0 +1,20 @@
+{
+  "name": "forwarder-group-website",
+  "version": "1.0.0",
+  "description": "货代群展示网站",
+  "scripts": {
+    "start": "serve -s . -l 3004",
+    "dev": "serve -s . -l 3004 --hot",
+    "install-serve": "npm install -g serve"
+  },
+  "keywords": [
+    "货代群",
+    "展示网站",
+    "物流"
+  ],
+  "author": "Darren 陈闯",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
